@@ -69,7 +69,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         @role('Admin') {{-- Laravel-permission blade helper --}}
-                                        <a href="#"><i class="fa fa-btn fa-unlock"></i>Admin</a>
+                                        <a href="{{ route('users.index') }}"><i class="fa fa-btn fa-unlock"></i>Admin</a>
                                         @endrole
                                         <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                             Logout
