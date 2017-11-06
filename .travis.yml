@@ -1,0 +1,5 @@
+language: php
+deploy:
+  provider: heroku
+  api_key: 87189d70-4b8d-4723-a4b0-5434668df702
+  app: ultimategeek
